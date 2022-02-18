@@ -1,3 +1,5 @@
+  // FLOOR OF AN ELEMENT IN SORTED ARRAY MEANS THE GREATEST ELEMENT SMALLEST THAN THE TARGET ELEMENT.
+
 #include<iostream>
 using namespace std;
 int floor_of_array(int arr[],int n,int target){

@@ -12,13 +12,14 @@ int floor_of_array(int arr[],int n,int target){
             return arr[mid];
         }
         else if(arr[mid]<target){
-            ans = mid;
+            ans = arr[mid];
             si = mid+1;
         }
         else{
             ei=mid-1;
         }
     }
+  return ans;
 }
 int main(){
     int arr[7] = {1,2,3,4,8,10,12};

@@ -1,3 +1,5 @@
+// Ceil means the smallest element greater than the target element.
+
 #include<iostream>
 using namespace std;
 int ceil_of_array(int arr[],int n,int target){
